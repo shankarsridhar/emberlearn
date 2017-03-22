@@ -1,5 +1,10 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
+<!-- NAVBAR -->
+<nav class='navbar'>
+    <div class='container'>
+        {{link-to 'Next' 'index' classNames='btn btn--mode-primary pull-right'}}
+        <span class="navbar-title">Welcome to Ember.js</span>
+    </div>
+</nav>
+
 
 {{outlet}}
