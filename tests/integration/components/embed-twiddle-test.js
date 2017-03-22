@@ -14,12 +14,4 @@ test('it renders', function(assert) {
 
   assert.equal(this.$().text().trim(), '');
 
-  // Template block usage:
-  this.render(hbs`
-    {{#embed-twiddle}}
-      template block text
-    {{/embed-twiddle}}
-  `);
-
-  assert.equal(this.$().text().trim(), 'template block text');
 });
